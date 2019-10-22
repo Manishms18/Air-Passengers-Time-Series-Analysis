@@ -2,7 +2,6 @@
 
 Forecasting number of passengers for airlines using ARIMA model in python
 
-
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -14,7 +13,6 @@ Forecasting number of passengers for airlines using ARIMA model in python
 * [Features](#features)
 * [Status](#status)
 * [Contact](#contact)
-
 
 ## Contact
 If you loved what you read here and feel like we can collaborate to produce some exciting stuff, or if you
