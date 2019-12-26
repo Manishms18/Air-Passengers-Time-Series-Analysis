@@ -7,7 +7,7 @@ You can view the project demo on [YouTube](https://www.youtube.com/watch?v=qamLB
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Demo](#demo)
-* [Methods, Technologies and Tools](#methods,-technologies-and-tools)
+* [Methods and Tools](#methods-and-tools)
 * [Code Examples](#code-examples)
 * [Status](#status)
 * [Contact](#contact)
@@ -38,7 +38,7 @@ Major steps involved were as follow :
 ![Example screenshot](./images/Image3.png)
 ![Example screenshot](./images/Image4.png)
 
-## Methods, Technologies and Tools
+## Methods and Tools
 * Python 
 * Advanced Excel
 * ARIMA 
