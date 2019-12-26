@@ -1,6 +1,5 @@
 # Air-Passengers-Time-Series-Analysis
 Forecasting number of passengers for airlines using ARIMA model in python
-
 You can view the project demo on [YouTube](https://www.youtube.com/watch?v=qamLBQQZP14).
    
 ## Table of contents
@@ -8,7 +7,7 @@ You can view the project demo on [YouTube](https://www.youtube.com/watch?v=qamLB
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Demo](#demo)
-* [Technologies and Tools](#technologies-and-tools)
+* [Methods, Technologies and Tools](#methods,-technologies-and-tools)
 * [Code Examples](#code-examples)
 * [Status](#status)
 * [Contact](#contact)
@@ -34,75 +33,45 @@ Major steps involved were as follow :
 
 ## Screenshots
 
-![Example screenshot](./images/Interface.png)
-![Example screenshot](./images/Outline.png)
-![Example screenshot](./images/Insights.png)
-![Example screenshot](./images/Heatmap.png)
+![Example screenshot](./images/Image1.png)
+![Example screenshot](./images/Image2.png)
+![Example screenshot](./images/Image3.png)
+![Example screenshot](./images/Image4.png)
 
-## Technologies and Tools
+## Methods, Technologies and Tools
 * Python 
-* Flask
-* Scikit-learn
-* HTML
+* Advanced Excel
+* ARIMA 
+* Augmented Dickey-Fuller Test
+* ACF and PACF
+* Statsmodels
 
 ## Code Examples
 
 ````
-# Code for creating pickle file of model and transform  
+# Code for Augemneted Dickey-Fuller Test and Rolling Mean to check stationarity  
 
-import pickle
-
-pickle.dump(scaler, open('tranform.pkl','wb'))
-pickle.dump(rf_clf, open('model.pkl','wb'))
-
-X_test=scaler.transform(X_test_unscaled[:1])
-
-predictions=rf_clf.predict(X_test)
-print("Predicted Result : ",predictions)
-
-predictions = rf_clf.predict_proba(X_test)
-print("Predicted Result probability : ",predictions)
+def stationarity(timeseries):
+    
+    rolmean=timeseries.rolling(window=12).mean()
+    rolstd=timeseries.rolling(window=12).std()
+    
+    plt.figure(figsize=(20,10))
+    actual=plt.plot(timeseries, color='red', label='Actual')
+    mean_6=plt.plot(rolmean, color='green', label='Rolling Mean') 
+    std_6=plt.plot(rolstd, color='black', label='Rolling Std')
+    plt.legend(loc='best')
+    plt.title('Rolling Mean & Standard Deviation')
+    plt.show(block=False)
+    
+    print('Dickey-Fuller Test: ')
+    dftest=adfuller(timeseries['Passengers'], autolag='AIC')
+    dfoutput=pd.Series(dftest[0:4], index=['Test Statistic','p-value','Lags Used','No. of Obs'])
+    for key,value in dftest[4].items():
+        dfoutput['Critical Value (%s)'%key] = value
+    print(dfoutput)
 
 ````
-````
-# Flask code for using deployed pickle file and connecting to interface
-
-import numpy as np
-from flask import Flask, request, jsonify, render_template
-import pickle
-
-app = Flask(__name__)
-scaler = pickle.load(open('tranform.pkl','rb'))
-model = pickle.load(open('model.pkl', 'rb'))
-
-@app.route('/')
-def home():
-    return render_template('interface.html')
-
-@app.route('/predict',methods=['POST'])
-def predict():
-    '''
-    For rendering results on HTML GUI
-    '''
-    int_features = [int(x) for x in request.form.values()]
-    
-    final_features = [np.array(int_features)]
-    
-    final_features = np.pad(final_features, (0, 63), 'constant')
-    
-    final_features = scaler.transform(final_features)
-    
-    prediction = model.predict_proba(final_features)
-
-    output = prediction[0]
-
-    return render_template('interface.html', prediction_text='Readmission probability is {}'.format(output))
-
-if __name__ == "__main__":
-    app.run(debug=True)
-
-````
-
 
 ## Status
 Project is: _finished_.
