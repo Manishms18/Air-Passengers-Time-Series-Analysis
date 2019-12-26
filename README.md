@@ -1,6 +1,6 @@
 # Air-Passengers-Time-Series-Analysis
 Forecasting number of passengers for airlines using ARIMA model in python
-You can view the project demo on [YouTube](https://www.youtube.com/watch?v=qamLBQQZP14).
+You can view the project demo on [YouTube](https://www.youtube.com/watch?v=zkw2CZEssT8).
    
 ## Table of contents
 
@@ -30,7 +30,7 @@ Major steps involved were as follow :
 
 ![Example screenshot](./images/Demo.gif)
 
-**The entire demo of the project can be found on [YouTube](https://www.youtube.com/watch?v=qamLBQQZP14).**
+**The entire demo of the project can be found on [YouTube](https://www.youtube.com/watch?v=zkw2CZEssT8).**
 
 ## Screenshots
 
