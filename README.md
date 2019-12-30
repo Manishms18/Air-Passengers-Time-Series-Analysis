@@ -15,7 +15,7 @@ You can view the project demo on [YouTube](https://www.youtube.com/watch?v=zkw2C
 
 ## General info
 
-Project was binary classification (Supervised Learning) problem.
+Project was Time Series Analysis, used ARIMA method to build the model.
 Major steps involved were as follow :                                 
 * STEP: 1 - Data Cleaning 
 * STEP: 2 - Feature Engineering and Feature Creation 
