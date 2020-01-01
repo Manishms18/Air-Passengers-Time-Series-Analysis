@@ -17,14 +17,14 @@ You can view the project demo on [YouTube](https://www.youtube.com/watch?v=zkw2C
 
 Project was Time Series Analysis, used ARIMA method to build the model.
 Major steps involved were as follow :                                 
-* STEP: 1 - Data Cleaning 
-* STEP: 2 - Feature Engineering and Feature Creation 
-* STEP: 3 - Transformation and Outlier Removal 
-* STEP: 4 - Exploratory Data Analysis and Sampling
-* STEP: 5 - Model Building and Evaluation 
-* STEP: 6 - Best Model and Deployment
-* STEP: 7 - Interpretations and Insights 
-* STEP: 8 - Improvements and Future Work 
+* STEP: 1 - Data Cleaning and Analysis
+* STEP: 2 - Checking Stationarity (ADF Test) 
+* STEP: 3 - Transformation  
+* STEP: 4 - Differencing
+* STEP: 5 - Time Series Components 
+* STEP: 6 - Finding ACF and PACF
+* STEP: 7 - ARIMA Modeling 
+* STEP: 8 - Forecast
 
 ## Demo
 
