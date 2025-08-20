@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it."
+title: "Air Passengers Time Series Forecasting using ARIMA"
+type: software
+authors:
+  - family-names: Shukla
+    given-names: Manish
+    email: manishshukla.ms18@gmail.com
+    affiliation: Independent Researcher
+    # orcid: 0000-0000-0000-0000  # add if you have one
+repository-code: "https://github.com/Manishms18/Air-Passengers-Time-Series-Forecasting-using-ARIMA"
+url: "https://github.com/Manishms18/Air-Passengers-Time-Series-Forecasting-using-ARIMA"
+abstract: >
+  Reproducible ARIMA-based time series forecasting workflow for the Air Passengers dataset,
+  including EDA, decomposition, stationarity tests, model selection, evaluation, and figures.
+keywords:
+  - time series
+  - ARIMA
+  - forecasting
+  - reproducibility
+  - Python
+license: MIT
+version: "1.0.0"
+date-released: 2025-08-20
+doi: 10.5281/zenodo.16906037
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Shukla
+      given-names: Manish
+  title: "Air Passengers Time Series Analysis"
+  year: 2025
+  doi: 10.5281/zenodo.16906037
+  url: "https://doi.org/10.5281/zenodo.16906037"
