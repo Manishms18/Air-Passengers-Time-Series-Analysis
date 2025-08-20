@@ -1,9 +1,9 @@
 ---
-title: "Air Passengers Time Series Analysis"
+title: "Air Passengers Time Series Forecasting using ARIMA"
 authors:
   - name: Manish Shukla
     affiliation: 1
-    orcid: 0000-0000-0000-0000
+    orcid: [0009-0005-1093-5816]
 affiliations:
   - name: Independent Researcher
     index: 1
@@ -21,7 +21,7 @@ Time series forecasting is central in many domains such as finance, transport, a
 
 # Software description
 
-- **Repository**: [GitHub - Air Passengers Time Series Analysis](https://github.com/Manishms18/Air-Passengers-Time-Series-Analysis)
+- **Repository**: [GitHub - Air Passengers Time Series Forecasting using ARIMA](https://github.com/Manishms18/Air-Passengers-Time-Series-Forecasting-using-ARIMA)
 - **Language**: Python (with pandas, statsmodels, matplotlib, seaborn)
 - **Features**:
   - Data preprocessing and visualization
