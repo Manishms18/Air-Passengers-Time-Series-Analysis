@@ -95,7 +95,7 @@ just want to shoot a question, please feel free to connect with me on
 ````
 @misc{zenodo16906037,
   author       = {Manish Shukla},
-  title        = {Air Passengers Time Series Analysis},
+  title        = {Air Passengers Time Series Forecasting using ARIMA},
   year         = {2019},
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.16906037},
