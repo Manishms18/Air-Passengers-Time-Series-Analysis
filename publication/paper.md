@@ -30,6 +30,21 @@ Time series forecasting is central in many domains such as finance, transport, a
   - ARIMA model fitting and diagnostics
   - Forecast visualization and error metrics
 
+## Figures
+![Figure 1: Original Air Passengers time series showing clear upward trend and seasonality.](figures/original_series.png)
+
+![Figure 2: Rolling mean and standard deviation illustrating trend and heteroskedasticity.](figures/rolling_mean_std.png)
+
+![Figure 3: Decomposition of the series into trend, seasonal, and residual components.](figures/decomposition.png)
+
+![Figure 4: Autocorrelation Function (ACF) plot showing significant seasonal lags.](figures/acf_plot.png)
+
+![Figure 5: Partial Autocorrelation Function (PACF) plot assisting ARIMA model order selection.](figures/pacf_plot.png)
+
+![Figure 6: Model fit versus test data, highlighting forecast accuracy.](figures/fit_vs_test.png)
+
+![Figure 7: Future forecast of air passengers using the selected ARIMA model.](figures/future_forecast.png)
+
 # Example usage
 
 ```python
