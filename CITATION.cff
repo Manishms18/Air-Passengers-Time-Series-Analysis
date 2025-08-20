@@ -7,7 +7,7 @@ authors:
     given-names: Manish
     email: manishshukla.ms18@gmail.com
     affiliation: Independent Researcher
-    # orcid: 0000-0000-0000-0000  # add if you have one
+    orcid: 0009-0005-1093-5816
 repository-code: "https://github.com/Manishms18/Air-Passengers-Time-Series-Forecasting-using-ARIMA"
 url: "https://github.com/Manishms18/Air-Passengers-Time-Series-Forecasting-using-ARIMA"
 abstract: >
@@ -29,7 +29,7 @@ preferred-citation:
   authors:
     - family-names: Shukla
       given-names: Manish
-  title: "Air Passengers Time Series Analysis"
+  title: "Air Passengers Time Series Forecasting using ARIMA"
   year: 2025
   doi: 10.5281/zenodo.16906037
   url: "https://doi.org/10.5281/zenodo.16906037"
