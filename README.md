@@ -4,6 +4,7 @@ You can view the project demo on [YouTube](https://www.youtube.com/watch?v=zkw2C
    
 ## Table of contents
 
+* [Installation](#installation)
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Demo](#demo)
@@ -11,6 +12,13 @@ You can view the project demo on [YouTube](https://www.youtube.com/watch?v=zkw2C
 * [Code Examples](#code-examples)
 * [Status](#status)
 * [Contact](#contact)
+
+## Installation
+```bash
+git clone https://github.com/Manishms18/Air-Passengers-Time-Series-Forecasting-using-ARIMA.git
+cd Air-Passengers-Time-Series-Forecasting-using-ARIMA
+pip install -r requirements.txt
+```
 
 ## General info
 
@@ -81,4 +89,17 @@ If you loved what you read here and feel like we can collaborate to produce some
 just want to shoot a question, please feel free to connect with me on 
 <a href="mailto:manishshukla.ms18@gmail.com">email</a> or 
 <a href="https://www.linkedin.com/in/manishshukla-ms/" target="_blank">LinkedIn</a>
+
+
+## Citation
+````
+@misc{zenodo16906037,
+  author       = {Manish Shukla},
+  title        = {Air Passengers Time Series Analysis},
+  year         = {2025},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.16906037},
+  url          = {https://doi.org/10.5281/zenodo.16906037}
+}
+````
 
