@@ -101,5 +101,14 @@ just want to shoot a question, please feel free to connect with me on
   doi          = {10.5281/zenodo.16906037},
   url          = {https://doi.org/10.5281/zenodo.16906037}
 }
+
+@misc{shukla_air_passengers_arima_rs7419928_v1,
+  title        = {Air Passengers Time Series Forecasting using ARIMA},
+  author       = {Shukla, Manish},
+  howpublished = {Research Square preprint, Version 1},
+  doi          = {10.21203/rs.3.rs-7419928/v1},
+  url          = {https://www.researchsquare.com/article/rs-7419928/v1},
+  note         = {CC BY 4.0. Accessed: 2025-08-22}
+}
 ````
 
